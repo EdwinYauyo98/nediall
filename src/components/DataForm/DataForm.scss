@@ -1,0 +1,19 @@
+.dForm-container{
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    position: relative;
+
+    .dForm-background{
+        background-color: #6421FF ;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .dForm-img-background{
+        background-image: url(../../assets/imgs/citiybackground.png);
+        background-size: contain;
+        background-position: center;
+    }
+}
+

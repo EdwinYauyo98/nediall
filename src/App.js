@@ -1,11 +1,12 @@
-import './App.css';
 
-import Home from './pages/Home/Home'
+
+import DataForm from './components/DataForm/DataForm';
+
 
 function App() {
   return (
-    <div className="App">
-      <Home />
+    <div>
+      <DataForm />
     </div>
   );
 }

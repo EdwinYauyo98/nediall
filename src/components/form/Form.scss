@@ -1,5 +1,16 @@
-.input {
-    border: 1.39px, 
-    font-size 1rem;
-    border: none;
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 30rem;
+  
+  .form{
+      background: #FFFFFF;
+      box-shadow: 9px -7px 12px rgba(0, 0, 0, 0.15);
+      padding: 3rem 2rem;
+      display: flex;
+      flex-direction: column;
+      font-family: "Montserrat";
+      grid-gap: 1.5rem;
   }
+}
