@@ -1,0 +1,27 @@
+.tittleContainer {
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    position: relative;
+    
+
+    .background {
+        width: 80%;
+        height: auto;
+        position: absolute;
+        
+        top: 0;
+        left : 0;
+        z-index: -1;
+    }
+
+    .background2 {
+        width: 85%;
+        height: auto;
+        position: absolute;
+        
+        top: 0;
+        right : 0;
+        z-index: -2;
+    }
+}
