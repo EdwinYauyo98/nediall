@@ -3,6 +3,7 @@ import man from '../../../assets/images/Tittle/man.png'
 import './TittleInfo.scss'
 
 const dataTittle = {
+    'tittle':'',
     'description1': '',
     'description2': '',
     'buttonA': '',

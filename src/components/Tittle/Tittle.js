@@ -7,6 +7,7 @@ import TittleInfo from './TittleInfo/TittleInfo'
 
 
 const dataTittle = {
+    'tittle': 'NEDIALL',
     'description1' :'Especialistas en soluciones',
     'description2' :'integrales del marketing digital',
     'buttonA' :'¿Necesitas asesoría?',
@@ -18,7 +19,7 @@ export default function Tittle() {
         <div className="tittleContainer">
             <img className="background" src={background} alt="background"></img>
             <img className="background2" src={background2} alt="background2"></img>
-            <MenuBar className="menuBar"></MenuBar>
+            <MenuBar className="menuBar" dataTittle={dataTittle}></MenuBar>
             <TittleInfo className="tittleInfo" dataTittle={dataTittle}></TittleInfo>
         </div>
 
