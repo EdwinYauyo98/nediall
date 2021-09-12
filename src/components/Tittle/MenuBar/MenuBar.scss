@@ -1,0 +1,21 @@
+.menuBarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .tittleText {
+        color: white;
+        font-size: 3vw;
+        font-weight: 650;
+        text-decoration: underline;
+        text-underline-offset: 0.1em;
+        margin-top: 3%;
+        margin-left: 5.5%;
+    }
+
+    .btnBar {
+        width: 6vw;
+        height: auto;
+        margin-top: 2%;
+        margin-right: 12%;
+    }
+}

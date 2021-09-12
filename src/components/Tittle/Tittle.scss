@@ -1,5 +1,6 @@
 .tittleContainer {
     width: 100%;
+    min-height: 50vw;
     max-width: 2000px;
     margin: 0 auto;
     position: relative;
@@ -23,5 +24,13 @@
         top: 0;
         right : 0;
         z-index: -2;
+    }
+
+    .menuBar{
+        z-index: 0;
+    }
+
+    .tittleInfo{
+        z-index: 0;
     }
 }
