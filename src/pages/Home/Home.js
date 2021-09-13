@@ -1,5 +1,5 @@
 import './Home.scss';
-import Form from '../../components/form/Form';
+import Form from '../../components/DataForm/Form/Form';
 
 export default function Home(props){
     

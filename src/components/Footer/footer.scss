@@ -1,0 +1,28 @@
+.footer-container{
+    width: 100%;
+    min-height: 25vw;
+    max-width: 2000px;
+    margin: 0 auto;
+    position: relative;
+    background: #6421FF;
+
+    .footer-text{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: "Montserrat";
+        font-size: 25px;
+        color: #fff;
+        
+    }
+
+    .line{
+        width: 80%;
+        height: 50%;
+        border-bottom: 1px solid #fff;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
