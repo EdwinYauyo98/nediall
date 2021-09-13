@@ -5,8 +5,9 @@ import womenImg from '../../../assets/imgs/woman.png';
 
 function Form(props){
     const [data, setData] = useState({
-        fullname: "", 
-        phonenumber: "", 
+        fName: "",
+        lName: "", 
+        contact_number: "", 
         email: ""
     });
 
@@ -18,24 +19,54 @@ function Form(props){
     const sendData = (e) => {
         let axios = require("axios");
         let data2 = JSON.stringify({
-            fullname: data.fullname,
-            phonenumber: data.phonenumber,
+            name: data.fName,
+            lastname: data.lName,
+            contact_number: data.contact_number,
             email: data.email
         });
-    }
+
+        let config ={
+            method: "post",
+            url: "https://nediall-backend.herokuapp.com/api/contact",
+            headers: {
+               "Content-Type": "application/json",
+            },
+            data: data2,
+        };
+
+        axios(config)
+            .then(function (response){
+                if(response.data === "contacto añadido"){
+                    alert(JSON.stringify(response.data));
+
+                }
+                else{
+                    alert(JSON.stringify(response.data));
+                }
+            }).catch(function (error){
+                console.log(error)
+            });
+    };
+
     return(
         <div className="formContainer">
             <div className="form">
                 <Input
                     type="text"
-                    placeholder="Nombres y Apellidos"
-                    name="fullname"
+                    placeholder="Nombres"
+                    name="fName"
+                    onChange={setForm}
+                />
+                <Input
+                    type="text"
+                    placeholder="Apellidos"
+                    name="lName"
                     onChange={setForm}
                 />
                 <Input
                     type="text"
                     placeholder="Número de Contacto"
-                    name="phonenumber"
+                    name="contact_number"
                     onChange={setForm}
                 />
                 <Input
@@ -45,7 +76,8 @@ function Form(props){
                     onChange={setForm}
                 />
                 <div className="buttonContainer">
-                    <div className="buttonCall">
+                    <div className="buttonCall" 
+                        onClick={sendData}>
                         ¡Llámenme ahora!
                     </div>
                 </div>
