@@ -15,9 +15,8 @@ const dataTittle = {
 export default function MenuBar(props) {
     return (
         <div className="menuBarContainer">
-
             <div className="tittleText">{props.dataTittle.tittle}</div>
-            <img className="btnBar" src={btnBar} alt="btnBar" onClick={()=>menuBarAction()}></img>
+            <img className="btnBar" src={btnBar} alt="btnBar" onClick={props.stateModal}></img>
         </div>
     )
 }

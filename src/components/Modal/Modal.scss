@@ -1,0 +1,35 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200, 0.172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+    .modalContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 30rem;
+        .exitBtn {
+        }
+
+        .exitBtn button {
+        }
+        .form {
+            background: #ffffff;
+            box-shadow: 9px -7px 12px rgba(0, 0, 0, 0.15);
+            padding: 5rem 4rem;
+            display: flex;
+            flex-direction: column;
+            font-family: "Montserrat";
+            grid-gap: 1.5rem;
+        }
+        .footer {
+        }
+
+        .footer button {
+        }
+    }
+}
