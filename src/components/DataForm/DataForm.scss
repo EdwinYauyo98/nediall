@@ -1,6 +1,6 @@
 .dForm-container{
     width: 100%;
-    min-height: 50vw;
+    max-height: 50vw;
     max-width: 2000px;
     margin: 0 auto;
     position: relative;
@@ -30,11 +30,16 @@
         display: flex;
         justify-content: center;
         position: relative;
+        
     }
 
     .form-pos{
         z-index: 0;
         //position: absolute;
+    }
+
+    .footer-pos{
+        z-index: 0;
     }
            
 }

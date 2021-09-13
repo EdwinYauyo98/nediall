@@ -1,6 +1,7 @@
 import './DataForm.scss'
 import Form from './Form/Form';
 import backgroundImage from '../../assets/imgs/citiybackground.png';
+import Footer from '../Footer/footer'
 
 export default function DataForm(props){
 
@@ -14,6 +15,7 @@ export default function DataForm(props){
             </div>
             <div className="dForm-background">
                 <Form className="form-pos"/>
+                <Footer className="footer-pos"/>
             </div>        
         </div>
     );   

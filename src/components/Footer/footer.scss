@@ -1,14 +1,14 @@
 .footer-container{
     width: 100%;
-    min-height: 25vw;
+    max-height: 10vw;
     max-width: 2000px;
     margin: 0 auto;
     position: relative;
+    top: 100%;
     background: #6421FF;
-
     .footer-text{
         position: absolute;
-        top: 70%;
+        top: 45%;
         left: 50%;
         transform: translateX(-50%);
         font-family: "Montserrat";
@@ -19,7 +19,8 @@
 
     .line{
         width: 80%;
-        height: 50%;
+        max-width: 2000px;
+        height: 30%;
         border-bottom: 1px solid #fff;
         position: absolute;
         left: 50%;

@@ -22,7 +22,7 @@ function App() {
       <div className="landingPage">
         <Tittle className="title" stateModal={OpenModalAction}></Tittle>
         <DataForm className="dataForm" />
-        <Footer className="footer" />
+        {/* <Footer className="footer" /> */}
       </div>
       {openModal && <Modal className="modal" stateModal={OpenModalAction} dataModal={dataModal} />}
     </div >
