@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Tittle from './components/Tittle/Tittle'
 import Modal from './components/Modal/Modal'
 import DataForm from './components/DataForm/DataForm';
-import Footer from './components/Footer/footer';
+import Challenge from './components/Challenge/Challenge';
 import './App.scss'
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
     <div className="app">
       <div className="landingPage">
         <Tittle className="title" stateModal={OpenModalAction}></Tittle>
+        <Challenge/>
         <DataForm className="dataForm" />
         {/* <Footer className="footer" /> */}
       </div>
