@@ -20,7 +20,3 @@ export default function MenuBar(props) {
         </div>
     )
 }
-
-function menuBarAction() {
-    console.log("aea");
-}
