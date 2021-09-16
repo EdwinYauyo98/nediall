@@ -1,0 +1,133 @@
+.Contenedor-General {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+    .tittle {
+        font-family: Montserrat;
+        font-size: 50px;
+        margin-bottom: 0px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .tittle1 {
+        font-family: Montserrat;
+        font-size: 50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .cuadro-general {
+        align-self: center;
+        display: flex;
+        margin: 30px auto;
+        justify-content: center;
+    }
+    .cuadro {
+        width: 28%;
+        display: inline-block;
+    }
+    .cajaimg {
+        text-align: center;
+        margin-bottom: 0px;
+        padding: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.07);
+        border-image: initial;
+        transition: all 0.3s ease 0s;
+        background: #6421ff;
+        height: 30%;
+    }
+    .cajatxt {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding: 20px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.07);
+        border-image: initial;
+        transition: all 0.3s ease 0s;
+        background: #ffffff;
+        box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25);
+        top: -30px;
+        bottom: 70.62%;
+        height: 32%;
+    }
+    .text {
+        font-family: Montserrat;
+        color: #6421ff;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .comentario {
+        text-align: justify;
+        color: #6421ff;
+        margin-bottom: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-family: Montserrat;
+    }
+    .comentario2 {
+        font-family: Montserrat;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .comentario3 {
+        font-family: Montserrat;
+        text-align: initial;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .cajarayita {
+        position: absolute;
+        margin: 36px 5px 36px 110px;
+    }
+    .cajarayita2 {
+        position: absolute;
+        margin: 30px 500px auto 215px;
+    }
+    .rayitamid {
+        margin: 5px;
+    }
+    .Container-line {
+        align-self: center;
+        display: inline-block;
+        flex-direction: row;
+        padding-bottom: 40px;
+        .Line {
+            margin-top: 0px;
+            padding: 0px 3px 12px 3px;
+            height: 3px;
+            margin-left: 2px;
+        }
+    }
+    .enlace {
+        align-self: center;
+        background-color: #6421ff;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        width: 12em;
+        height: 3em;
+        margin-top: 20px;
+    }
+    .enlace:hover {
+        box-shadow: 0 0 5px #1affe3, 0 0 8px #1affe3;
+        cursor: pointer;
+    }
+    .blanco {
+        padding: 50px;
+    }
+}

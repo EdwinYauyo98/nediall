@@ -19,10 +19,14 @@
         margin-top: 2%;
         margin-right: 13%;
     }
+
+    .btnBar:hover {
+        cursor: pointer;
+    }
 }
 
 @media screen and (max-width: 700px) {
-    .menuBarContainer{
+    .menuBarContainer {
         .tittleText {
             font-size: 12px;
         }
@@ -30,7 +34,5 @@
         .btnBar {
             width: 20px;
         }
-    } 
-
-    
+    }
 }

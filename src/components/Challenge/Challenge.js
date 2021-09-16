@@ -4,11 +4,12 @@
     import Rectangle1 from '../../assets/images ChallengePresentation/Rectangle1.png'
     import LineShort from '../../assets/images ChallengePresentation/LineShort.png'
     import LineLong from '../../assets/images ChallengePresentation/LineLong.png'
+    import imagen3 from '../../assets/imagesServicesPresentation/imagen3.png'
 
-    export default function Challenge() {
+    export default function Challenge(props) {
         return (
             <center>
-            <><div className="Container">
+            <div className="Container">
                 <h1 className="tittle">Algunos de nuestros</h1>
                 <h1 className="tittle1">desafíos</h1>
                 </div>    
@@ -18,16 +19,27 @@
                 <img className="Line" src={LineShort} alt="LineShort"></img>
                 </div>
                 <div className="Container">
-                <a href="#" className="btn">Misceláneo</a>
-                <a href="#" className="btn">Branding</a>
-                <a href="#" className="btn">Páginas web</a>
+                <button onClick={props.stateModal} className="btn">Misceláneo</button>
+                <button onClick={props.stateModal} className="btn">Branding</button>
+                <button onClick={props.stateModal} className="btn">Páginas web</button>
                 </div>
             
-            <div className="Container-img">
-                    <img className="Rectangle" src={Rectangle} alt="Rectangle"></img>
-                    <img className="Rectangle" src={Rectangle1} alt="Rectangle1"></img>
-                    <a href="#" className="enlace">más proyectos</a>
-            </div></>
-                </center>
+                    <div className="Container-img">
+                        <div className="espaciobig">
+                            <div className="espacio">
+                                <div className="img"><img src={imagen3} alt="imagen3"></img></div>
+                                <div className="img"><img src={imagen3} alt="imagen3"></img></div>
+                                <div className="img"><img src={imagen3} alt="imagen3"></img></div>
+                            </div>
+                            <div className="espacio">    
+                                <div className="img"><img src={imagen3} alt="imagen3"></img></div>
+                                <div className="img"><img src={imagen3} alt="imagen3"></img></div>
+                                <div className="img"><img src={imagen3} alt="imagen3"></img></div>
+                            </div>
+                        </div>
+                        
+                        <button onClick={props.stateModal} className="enlace">más proyectos</button>
+                    </div>
+            </center>
         )
     }

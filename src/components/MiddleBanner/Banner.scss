@@ -7,18 +7,21 @@
     display: flex;
 
     .backgroundLeft {
+        background-color: #6421ff;
+        width: 45%;
+        height: auto;
+        padding-top: 170px;
+        padding-left: 60px;
+    }
+
+    .text {
         font-family: "Montserrat";
         font-size: 40px;
         font-weight: 700;
         color: white;
-        padding-top: 170px;
-        padding-left: 60px;
-        background-color: #6421FF;
-        width: 45%;
-        height: auto;
     }
     .bannerImg {
-        width: 55%;
-        height: 100%;
+        width: auto;
+        height: auto;
     }
 }

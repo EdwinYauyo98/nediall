@@ -40,8 +40,13 @@
             font-weight: 600;
             font-size: 32px;
             font-family: "Montserrat";
+            border: none;
         }
 
+        .buttonA:hover {
+            box-shadow: 0 0 5px #1affe3, 0 0 8px #1affe3;
+            cursor: pointer;
+        }
         .buttonB {
             background: #3d12c4;
             margin-left: 50px;
@@ -53,6 +58,13 @@
             font-weight: 600;
             font-size: 32px;
             font-family: "Montserrat";
+
+            border: none;
+        }
+
+        .buttonB:hover {
+            box-shadow: 0 0 5px #1affe3, 0 0 8px #1affe3;
+            cursor: pointer;
         }
     }
 }
