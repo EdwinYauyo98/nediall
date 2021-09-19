@@ -25,7 +25,7 @@ export default function Services(props){
             <div className="cuadro-general">
                 <div className="cuadro">
                     <div className="cajaimg">
-                        <img className="a1" src={imagen3} alt="imagen3"></img>
+                        <img className="img" src={imagen3} alt="imagen3"></img>
                     </div>
                     <div className="cajatxt">
                             <h3 className="text">Creacion de marca grafico</h3>
@@ -37,15 +37,11 @@ export default function Services(props){
                 </div>
                 <div className="cuadro">
                     <div className="cajaimg">
-                        <div className="cajarayita">
-                            <img className="a2" src={rayita} alt="rayita"></img>
-                            <img className="a2" src={rayita} alt="rayita"></img>
-                        </div>
-                            <img className="a1" src={imagen2} alt="imagen2"></img>
+                            <img className="img" src={imagen2} alt="imagen2"></img>
                     </div>
                     <div className="cajatxt">
-                            <h3 className="text">Creacion de marca grafico</h3>
-                            <h3 className="text">e identidad corporativa</h3>
+                            <h3 className="text">Diseño de paginas</h3>
+                            <h3 className="text">web</h3>
                             <p className="comentario">Ten un diseño digerible, intuitivo, flexible y adaptable.</p>
                             {/* <p className="comentario2">las aplicaciones de como se vera</p>
                             <p className="comentario3">tu marca.</p> */}
@@ -53,12 +49,7 @@ export default function Services(props){
                 </div>        
                 <div className="cuadro">
                     <div className="cajaimg">
-                        <div className="cajarayita2">
-                            <img className="a2" src={rayitatop} alt="rayitatop"></img>
-                            <img className="rayitamid" src={rayitamid} alt="rayitamid"></img>
-                            <img className="a2" src={rayitabot} alt="rayitabot"></img>
-                        </div>
-                            <img className="a1" src={imagen1} alt="imagen1"></img>
+                            <img className="img" src={imagen1} alt="imagen1"></img>
                     </div>
                     <div className="cajatxt">
                             <h3 className="text">Creacion de marca grafico</h3>
@@ -73,7 +64,7 @@ export default function Services(props){
             {/* <center> */}
             <button onClick={props.stateModal} className="enlace">Otros servicios</button>        
             {/* </center> */}
-            <div className="blanco"></div>
+            {/* <div className="blanco"></div> */}
         </div>
     
     )

@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    margin-top: 200px;
+    // width: 100%;
 
     .tittle {
         font-family: Montserrat;
@@ -21,7 +22,7 @@
     .cuadro-general {
         align-self: center;
         display: flex;
-        margin: 30px auto;
+        margin: auto;
         justify-content: center;
     }
     .cuadro {
@@ -60,6 +61,10 @@
         bottom: 70.62%;
         height: 32%;
     }
+
+    .img {
+        width: 35%;
+    }
     .text {
         font-family: Montserrat;
         color: #6421ff;
@@ -74,28 +79,7 @@
         padding-right: 50px;
         font-family: Montserrat;
     }
-    .comentario2 {
-        font-family: Montserrat;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    .comentario3 {
-        font-family: Montserrat;
-        text-align: initial;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    .cajarayita {
-        position: absolute;
-        margin: 36px 5px 36px 110px;
-    }
-    .cajarayita2 {
-        position: absolute;
-        margin: 30px 500px auto 215px;
-    }
-    .rayitamid {
-        margin: 5px;
-    }
+
     .Container-line {
         align-self: center;
         display: inline-block;
@@ -122,12 +106,180 @@
         width: 12em;
         height: 3em;
         margin-top: 20px;
+        margin-bottom: 100px;
     }
     .enlace:hover {
         box-shadow: 0 0 5px #1affe3, 0 0 8px #1affe3;
         cursor: pointer;
     }
-    .blanco {
-        padding: 50px;
+}
+
+@media screen and (max-width: 1920px) {
+    .Contenedor-General {
+        .tittle {
+            font-size: 50px;
+            margin-bottom: 0px;
+            margin-top: 40px;
+            transition: 0.5s;
+        }
+        .tittle1 {
+            font-size: 50px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            transition: 0.5s;
+        }
+        .cuadro-general {
+            margin: auto;
+            transition: 0.5s;
+        }
+        .cuadro {
+            width: 28%;
+            transition: 0.5s;
+        }
+        .cajaimg {
+            margin-bottom: 0px;
+            padding: 50px;
+            margin-left: 20px;
+            margin-right: 20px;
+            border-width: 1px;
+            height: 30%;
+            transition: 0.5s;
+        }
+
+        .img {
+            width: 40%;
+            margin-bottom: auto;
+            transition: 0.5s;
+        }
+
+        .cajatxt {
+            margin-top: 0px;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 20px;
+            border-width: 2px;
+            top: -30px;
+            bottom: 70.62%;
+            height: 32%;
+            transition: 0.5s;
+        }
+        .text {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 25px;
+            transition: 0.5s;
+        }
+        .comentario {
+            margin-bottom: 0px;
+            padding-left: 50px;
+            padding-right: 50px;
+            font-size: 21px;
+            transition: 0.5s;
+        }
+
+        .Container-line {
+            padding-bottom: 40px;
+            transition: 0.5s;
+            .Line {
+                margin-top: 0px;
+                padding: 0px 3px 12px 3px;
+                height: 3px;
+                margin-left: 2px;
+                transition: 0.5s;
+            }
+        }
+        .enlace {
+            font-size: 35px;
+            width: 12em;
+            height: 3em;
+            margin-top: 0px;
+            margin-bottom: 100px;
+            transition: 0.5s;
+        }
+    }
+}
+//////1600px - se usa para 1366 en realidad
+@media screen and (max-width: 1600px) {
+    .Contenedor-General {
+        .tittle {
+            font-size: 40px;
+            margin-bottom: 0px;
+            margin-top: 40px;
+            transition: 0.5s;
+        }
+        .tittle1 {
+            font-size: 40px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            transition: 0.5s;
+        }
+        .cuadro-general {
+            margin: auto;
+            transition: 0.5s;   
+        }
+        .cuadro {
+            width: 28%;
+            transition: 0.5s;
+        }
+        .cajaimg {
+            margin-bottom: 0px;
+            padding: 30px;
+            margin-left: 15px;
+            margin-right: 15px;
+            border-width: 1px;
+            height: 30%;
+            transition: 0.5s;
+        }
+
+        .img{
+            width: 40%;
+            margin-bottom: 0px;
+            transition: 0.5s;
+        }
+        
+        .cajatxt {
+            margin-top: 0px;
+            margin-bottom: 70px;
+            margin-left: 15px;
+            margin-right: 15px;
+            padding: 20px;
+            border-width: 2px;
+            top: -30px;
+            bottom: 70.62%;
+            height: 32%;
+            transition: 0.5s;
+        }
+        .text {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 17px;
+            transition: 0.5s;
+        }
+        .comentario {
+            margin-bottom: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 15px;
+            transition: 0.5s;
+        }
+        .Container-line {
+            padding-bottom: 40px;
+            transition: 0.5s;
+            .Line {
+                margin-top: 0px;
+                padding: 0px 3px 12px 3px;
+                height: 3px;
+                margin-left: 2px;
+                transition: 0.5s;
+            }
+        }
+        .enlace {
+            font-size: 25px;
+            width: 12em;
+            height: 3em;
+            margin-top: 20px;
+            margin-bottom: 100px;
+            transition: 1s;
+        }
     }
 }

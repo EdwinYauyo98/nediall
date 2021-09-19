@@ -1,3 +1,5 @@
+$middlePercent: 46%;
+
 .bannerContainer {
     width: 100%;
     min-height: 100%;
@@ -5,13 +7,14 @@
     margin: 0 auto;
     position: relative;
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
 
     .backgroundLeft {
         background-color: #6421ff;
-        width: 45%;
-        height: auto;
-        padding-top: 170px;
-        padding-left: 60px;
+        width: $middlePercent;
+        padding-top: 8%;
+        padding-left: 3%;
     }
 
     .text {
@@ -21,7 +24,46 @@
         color: white;
     }
     .bannerImg {
-        width: auto;
+        width: 100-$middlePercent;
         height: auto;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .bannerContainer {
+        margin-bottom: 50px;
+
+        .backgroundLeft {
+            padding-top: 8%;
+            padding-left: 3%;
+        }
+
+        .text {
+            font-size: 40px;
+            font-weight: 700;
+        }
+        .bannerImg {
+            transition: 0.5s;
+        }
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .bannerContainer {
+        margin-bottom: 50px;
+
+        .backgroundLeft {
+            padding-top: 9%;
+            padding-left: 4%;
+        }
+
+        .text {
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .bannerImg {
+            transition: 0.5s;
+        }
     }
 }

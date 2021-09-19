@@ -25,14 +25,30 @@
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1920px) {
     .menuBarContainer {
         .tittleText {
-            font-size: 12px;
+            font-size: 48px;
+            transition: 0.5s;
         }
 
         .btnBar {
-            width: 20px;
+            width: 70px;
+            transition: 0.5s;
+        }
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .menuBarContainer {
+        .tittleText {
+            font-size: 36px;
+            transition: 0.5s;
+        }
+
+        .btnBar {
+            width: 60px;
+            transition: 0.5s;
         }
     }
 }
